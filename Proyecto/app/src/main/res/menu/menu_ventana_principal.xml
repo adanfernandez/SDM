@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/oriente"
+        android:title="Oriente"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/occidente"
+        android:title="Occidente"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/centro"
+        android:title="Centro"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/banderaAzul"
+        android:title="Bandera Azul"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/distancia"
+        android:title="Más Cercanas"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/favoritas"
+        android:title="Favoritas" />
+    <item
+        android:id="@+id/acercade"
+        android:title="Acerca de"
+        tools:ignore="HardcodedText" />
+</menu>

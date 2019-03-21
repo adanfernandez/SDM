@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp"
+    tools:ignore="UseCompoundDrawables">
+
+    <TextView
+        android:id="@+id/tInfoMapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Haz click en el mapa para acceder a todas las playas"
+        android:textStyle="bold|italic"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="159dp"
+        android:onClick="verTodasLasPlayas"
+        app:srcCompat="@drawable/asturias"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:text="Algunas de nuestras playas:"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+    <ListView
+        android:id="@+id/listaViewPlayas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="NestedScrolling,ScrollViewSize" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessLeaf">
+
+    </ScrollView>
+
+</LinearLayout>
+
+
+
+

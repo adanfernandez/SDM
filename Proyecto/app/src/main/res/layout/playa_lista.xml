@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center|left"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    tools:ignore="RtlHardcoded">
+
+    <ImageView
+        android:id="@+id/imagenPlayaLista"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.21"
+        android:adjustViewBounds="true"
+        android:contentDescription="Descripción del contenido de la imagen"
+        android:paddingBottom="4dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"
+        android:scaleType="fitXY"
+        android:src="@android:drawable/ic_menu_gallery"
+        tools:ignore="HardcodedText,InefficientWeight" />
+
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.52"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nombrePlayaLista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="10dp"
+            android:text="Playa España"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/zonaPlayaLista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="10dp"
+            android:text="Oriente"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/concejoPlayaLista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="10dp"
+            android:text="Villaviciosa"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/longitudPlayaLista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="125 m."
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlSymmetry" />
+    </LinearLayout>
+
+</LinearLayout>
